@@ -26,6 +26,11 @@
             }
         }
     </script>
+    <script>
+        window.onload = function(){
+            eziok_std_process("http://hy.go:8080/eziok/eziok_std_request.jsp", "WB", "");
+        }
+    </script>
 </head>
 <body>
 <button onclick="init_popup_auth();">인증_팝업</button>
